@@ -1,0 +1,533 @@
+<html>
+<head>
+    <title>
+        ClinicaMedica
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap"
+        rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .header {
+            background-color: #ffffff;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .header .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .header .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .header .logo span {
+            font-size: 24px;
+            font-weight: 700;
+            color: #333;
+        }
+
+        .header .logo span span {
+            color: #00aaff;
+        }
+
+        .header nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .header nav a.contact {
+            background-color: #00aaff;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        .hero {
+            background-color: #f0f0f0;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .hero .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin: 20px 0;
+        }
+
+        .hero h1 span {
+            color: #00aaff;
+        }
+
+        .hero p {
+            font-size: 16px;
+            color: #666;
+            margin: 20px 0;
+        }
+
+        .hero .buttons {
+            margin: 20px 0;
+        }
+
+        .hero .buttons a {
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin: 0 10px;
+            font-weight: 500;
+        }
+
+        .hero .buttons a.learn-more {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .hero .buttons a.appointment {
+            background-color: #00aaff;
+            color: #fff;
+        }
+
+        .services {
+            background-color: #ffffff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .services .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .services .service {
+            display: inline-block;
+            width: 30%;
+            margin: 0 1.5%;
+            vertical-align: top;
+        }
+
+        .services .service i {
+            font-size: 40px;
+            color: #00aaff;
+            margin-bottom: 20px;
+        }
+
+        .services .service h3 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .services .service p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .services .service a {
+            text-decoration: none;
+            color: #00aaff;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img alt="JollyMedic Logo" height="40"
+                    src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-BVbpSZmLndA7MfHIxv2ahIKS/user-IBY8IaMXtVn7IVIdZeyvjx16/img-91aJgXasqXJWEX6cYn6g7MmA.png?st=2024-09-02T00%3A04%3A04Z&amp;se=2024-09-02T02%3A04%3A04Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-02T00%3A06%3A30Z&amp;ske=2024-09-03T00%3A06%3A30Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=AqsjxWo8z6JsKBkPeCWHUG3p8gNq2ENcAVn2GpUkPIE%3D"
+                    width="40" />
+                <span>
+                    CLINICA
+                    <span>
+                        MEDICA
+                    </span>
+                </span>
+            </div>
+            <nav>
+                <a href="#">
+                    INICIO
+                </a>
+                <a href="#">
+                    MEDICOS
+                </a>
+                <a href="#">
+                    ENCONTRO
+                </a>
+                <a href="#">
+                    CONVENIO
+                </a>
+                <a class="contact" href="#">
+                    CONTATO
+                </a>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <img alt="Doctor Image" height="400"
+                src="https://oaidalleapiprodscus.blob.core.windows.net/private/org-BVbpSZmLndA7MfHIxv2ahIKS/user-IBY8IaMXtVn7IVIdZeyvjx16/img-JVuujY4rl49ZIJynTuEzRiIF.png?st=2024-09-02T00%3A04%3A01Z&amp;se=2024-09-02T02%3A04%3A01Z&amp;sp=r&amp;sv=2024-08-04&amp;sr=b&amp;rscd=inline&amp;rsct=image/png&amp;skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&amp;sktid=a48cca56-e6da-484e-a814-9c849652bcb3&amp;skt=2024-09-01T23%3A55%3A33Z&amp;ske=2024-09-02T23%3A55%3A33Z&amp;sks=b&amp;skv=2024-08-04&amp;sig=hZRoNuHayJ0wiQeBgbTVB2LvDRoStI5YXGWwNBPcKs0%3D"
+                width="400" />
+            <h1>
+                CLINICA
+                <span>
+                    MEDIC
+                </span>
+                PERFEITO PARA MEDICINA
+            </h1>
+            <p>
+                Aqui na nossa clínica, cada atendimento é mais do que uma consulta—é um compromisso com a sua saúde e
+                bem-estar. Nossa equipe dedicada de profissionais altamente capacitados trabalha incansavelmente para
+                oferecer um cuidado personalizado e eficaz, garantindo que você receba o melhor tratamento possível em
+                cada visita.
+            </p>
+            <div class="buttons">
+                <a class="learn-more" href="#">
+                    Saiba mais
+                </a>
+                <a class="appointment" href="#">
+                    Marque uma consulta
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="service">
+                <i class="fas fa-hospital">
+                </i>
+                <h3>
+                    INCRÍVEL INSTALAÇÃO MÉDICA
+                </h3>
+                <p>
+                    A localização de uma clínica é crucial para garantir que os pacientes tenham fácil acesso aos
+                    serviços de saúde. Idealmente, a clínica deve estar situada em áreas com boa infraestrutura de
+                    transporte público, como ônibus ou metrô, e com estacionamentos próximos para aqueles que utilizam
+                    transporte privado.
+                </p>
+                <a href="#">
+                    Leia mais
+                </a>
+            </div>
+            <div class="service">
+                <i class="fas fa-globe">
+                </i>
+                <h3>
+                    SAÚDE DE CLASSE MUNDIAL
+                </h3>
+                <p>
+                    Nossa saúde de classe mundial é o reflexo de um sistema robusto, onde a excelência e a inovação se
+                    unem para garantir atendimento de qualidade a todos. Com profissionais altamente capacitados e
+                    tecnologias de ponta, oferecemos cuidados médicos que estão à frente das melhores práticas globais
+                </p>
+                <a href="#">
+                    Leia mais
+                </a>
+            </div>
+            <div class="service">
+                <i class="fas fa-ambulance">
+                </i>
+                <h3>
+                    SERVIÇOS DE EMERGÊNCIA 24 HORAS
+                </h3>
+                <p>
+                    Os serviços de emergência 24 horas são essenciais para fornecer assistência médica imediata em casos
+                    de urgência e emergência.
+                </p>
+                <a href="#">
+                    Leia mais
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+<html>
+
+<head>
+    <title>Colabs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .header {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .header p {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .header .btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+
+        .stat-item {
+            text-align: center;
+            width: 30%;
+        }
+
+        .stat-item i {
+            font-size: 36px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .stat-item h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .progress-bar {
+            background-color: #e0e0e0;
+            border-radius: 5px;
+            overflow: hidden;
+            height: 10px;
+            margin-top: 10px;
+        }
+
+        .progress {
+            height: 100%;
+            background-color: #007bff;
+        }
+
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .contact-info div {
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+        }
+
+        .contact-info i {
+            font-size: 24px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .footer {
+            background-color: #007bff;
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .footer .footer-content {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .footer .footer-content div {
+            width: 30%;
+        }
+
+        .footer .footer-content h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .footer .footer-content p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .footer .footer-content ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer .footer-content ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer .footer-content ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .footer .footer-content ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .footer .social-icons {
+            margin-top: 20px;
+        }
+
+        .footer .social-icons i {
+            font-size: 24px;
+            margin: 0 10px;
+            color: #fff;
+        }
+
+        .footer .social-icons i:hover {
+            color: #d4d4d4;
+        }
+
+        .footer .copyright {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    </div>
+    <div class="stats">
+        <div class="stat-item">
+            <i class="fas fa-tasks"></i>
+            <h3>Project Completed</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 78%;"></div>
+            </div>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-users"></i>
+            <h3>Satisfied Customers</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%;"></div>
+            </div>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-user-tie"></i>
+            <h3>Experienced Team</h3>
+            <div class="progress-bar">
+                <div class="progress" style="width: 70%;"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="contact-info">
+        <div>
+            <i class="fas fa-phone-alt"></i>
+            <p>Our Number</p>
+            <p>+6282 4032 567</p>
+        </div>
+        <div>
+            <i class="fas fa-envelope"></i>
+            <p>Email Address</p>
+            <p>example@email.com</p>
+        </div>
+        <div>
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Our Location</p>
+            <p>2443 Oak Ridge Omaha, QA 45065</p>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            <div>
+                <h3>Colabs</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
+                    mattis.</p>
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div>
+                <h3>Our Store</h3>
+                <ul>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#">MEDICOS</a></li>
+                    <li><a href="#">CONVENIO</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Get In Touch</h3>
+                <ul>
+                    <li>2443 Oak Ridge Omaha, QA 45065</li>
+                    <li>207-8767-432</li>
+                    <li>support@site.com</li>
+                    <li>Mon - Sat 07:30 - 18:00</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright © 2023 colabs | Powered by colabs
+        </div>
+    </div>
+</body>
+
+</html>
